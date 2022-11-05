@@ -1,13 +1,12 @@
-package com.myfood.initial;
+package com.myfood;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InitialApplication {
-
+public class Application {
 	public static void main(String[] args) {
-		SpringApplication.run(InitialApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
